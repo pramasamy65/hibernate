@@ -9,6 +9,10 @@
 * docker rm container_id
 * docker start sql_docker
 * mssql -u sa -p myPassw0rd
+
+* <property name="hibernate.connection.url">jdbc:mysql://localhost:1433/hibernate</property>
+* <property name="hibernate.connection.username">sa</property>
+* <property name="hibernate.connection.password">myPassw0rd</property>
 ---
 ### Sample DataBase Queries and script
  * https://github.com/pramasamy65/hibernate/blob/master/DataBase-Queries.md
