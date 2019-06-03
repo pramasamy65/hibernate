@@ -1,5 +1,9 @@
 ## Hibernate-Notes1
 
+## World before JPA
+ * Refer https://github.com/pramasamy65/spring/blob/master/spring-data/README1.md
+ * Refer Steps 1 to 14 which contains JDBC to JDBC Tempalte
+
 ### Project - hibernate-basics
  * https://github.com/pramasamy65/hibernate/tree/master/hibernate-basics
  
@@ -25,6 +29,12 @@
  * The mapping between Java objects and database tables is defined via persistence metadata
  * JPA metadata is typically defined via annotations in the Java class. Alternatively, the metadata can be defined via XML or a combination of both. 
  * A XML configuration overwrites the annotations
+ 
+### Persistence Context
+ * https://www.byteslounge.com/tutorials/container-vs-application-managed-entitymanager
+ * Persistence Context is responsible for JPA entity management: When an application loads an entity from the database, the entity is in fact stored in the Persistence Context, so the entity becomes managed by the Persistence Context. Any further change made over that same entity will be monitored by the Persistence Context
+ * The Entity Manager is an interface for the application to interact with the Persistence Context
+ * Two distinct types of Persistence Context: Container Managed and Application Managed
 
 ### @Entity
  * A class which should be persisted in a database it must be annotated with javax.persistence.Entity & Such a class is called Entity
@@ -44,7 +54,7 @@
  
 ### Hibernate SessionFactory vs. EntityManagerFactory
  * When the EntityManagerFactory is created, the persistence implementation searches for the META-INF/persistence.xml file in the classpath
- * SessionFactory uses hibernate.cfg.xml under resources
+ * SessionFactory uses hibernate.cfg.xml under resources folder
  * https://javabeat.net/jpa-entitymanager-vs-hibernate-sessionfactory/
  
 ## EntityManager
