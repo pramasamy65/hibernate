@@ -4,11 +4,10 @@
  * https://github.com/pramasamy65/hibernate/blob/master/SQL-Server-Installation-README.md
 ---
 ### Docker Starting steps for my-sql
-* docker run -d --name sql_docker -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=myPassw0rd' -p 1433:1433 microsoft/mssql-server-linux
-* docker ps -all
-* docker rm container_id
-* docker start sql_docker
-* mssql -u sa -p myPassw0rd
+* Open the Docker Application
+* docker ps -all -> List all containers
+* docker start sql_docker  -> Open SQL Application
+* mssql -u sa -p myPassw0rd -> Connect to SQL Application
 
 * <property name="hibernate.connection.url">jdbc:mysql://localhost:1433/hibernate</property>
 * <property name="hibernate.connection.username">sa</property>
