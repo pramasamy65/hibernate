@@ -1,20 +1,5 @@
 ## Hibernate-Notes1
 
-### Project - hibernate-basics
- * https://github.com/pramasamy65/hibernate/tree/master/hibernate-basics
- 
-#### Package - com.handson.hibernate_basics.module1
- * Adding dependencies hibernate-core and mssql-jdbc, lombok
- * hibernate.cfg.xml configurations
-   * <session-factory> hbm2ddl.auto is a hibernate configuration property
-   * hbm2ddl.auto property of Hibernate either creates or validates a database table
-   * <property name="hbm2ddl.auto">validate/create/update/create-drop</property>
-   
-   * Create - CREATE then the hibernate first drops the existing tables data and structure
-   * Upate - If a table doesn’t exist then it creates new tables and where as if a column doesn’t exist it creates new columns for it
-   * create-drop - Hibernate first checks for a table and do the necessary operations and finally drops the table after all the operations were completed
-   * validate - Hibernate only validates the table structure- whether the table and columns have existed or not. If the table doesn’t exist then hibernate throws an exception
-   
 ### Java Persistence API (JPA)
  * https://www.vogella.com/tutorials/JavaPersistenceAPI/article.html
  * https://huongdanjava.com/difference-between-jpa-and-hibernate-framework.html
@@ -37,15 +22,15 @@
  * An entity represents a table in a relational database
  * @Entity(name = "Test")
  * public class Address {
-  * If there is no name given for Entity then class name is treated as table name
-  * If entity name is provided then hibernate create the table name as "Test"
+	* If there is no name given for Entity then class name is treated as table name
+	* If entity name is provided then hibernate create the table name as "Test"
 
 ### @Table
  * https://huongdanjava.com/learn-about-entity-and-table-annotation-in-jpa.html
  * Want to change the name of the database table to use in your application without changing the name of the entity, using @Table annotation will meet your needs
-  * @Entity
-  * @Table(name = "Test")
-  * public class Clazz {
+	* @Entity
+	* @Table(name = "Test")
+	* public class Clazz {
  * Here, the name of the table that we will use is the "Test" and the entity name is still Clazz.
  
 ### Hibernate SessionFactory vs. EntityManagerFactory
@@ -53,17 +38,15 @@
  * SessionFactory uses hibernate.cfg.xml under resources folder
  * https://javabeat.net/jpa-entitymanager-vs-hibernate-sessionfactory/
  
-## EntityManager
- * 
- 
 ### Difference between persistence.xml and hibernate.cfg.xml 
  * JPA leverages metadata from persistence.xml while Hibernate API uses hibernate.cfg.xml
  * Ideally both will have same set of informations which is used to connect the database
  * Want to start using JPA, you can reuse the existing configuration files by referencing the hibernate.cfg.xml in the persistence.xml
  * The properties set in persistence.xml will override the one in the defined hibernate.cfg.xml
  
-* https://www.theserverside.com/news/2240186700/The-JPA-20-EntityManager-vs-the-Hibernate-Session-Which-one-to-use
-* https://www.baeldung.com/hibernate-entitymanager
-* https://www.waitingforcode.com/hibernate/difference-between-sessionfactory-and-entitymanagerfactory/read
-* https://www.vogella.com/tutorials/JavaPersistenceAPI/article.html
-* https://premaseem.wordpress.com/category/computers/framework/hibernate/
+## EntityManager
+ * https://www.baeldung.com/hibernate-entitymanager
+
+## Hibernate and JPA methods comparison
+ * https://www.waitingforcode.com/hibernate/difference-between-sessionfactory-and-entitymanagerfactory/read
+

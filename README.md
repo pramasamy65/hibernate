@@ -12,27 +12,18 @@
 	* <property name="hibernate.connection.username">sa</property>
 	* <property name="hibernate.connection.password">myPassw0rd</property>
 ---
-### Sample DataBase Queries and script
+### Sample DataBase Queries/Common Queries and script
  * https://github.com/pramasamy65/hibernate/blob/master/DataBase-Queries.md
  
-## JDBC and Spring JDBC Concepts
+### JDBC and Spring JDBC Concepts
  * Refer https://github.com/pramasamy65/spring/blob/master/spring-data/README1.md
  * Refer Steps 1 to 14 which contains JDBC and Spring JDBC Tempalte
  
-## Spring With Hibernate Sample Program
- * https://github.com/pramasamy65/spring/blob/master/spring-data/README2.md
- 	* Create DataSource
- 	* Create SessionFactory
- 	* AutoWire SessionFactory and create session, transaction and make data base call
-
-### Hibernate Basics
+### Hibernate Basics Concepts
  * https://github.com/pramasamy65/hibernate/blob/master/Hibernate-Notes1.md
  
+## Hibernate Topics Covered : https://github.com/pramasamy65/hibernate/blob/master/Hibernate-Notes2.md
 
----
-## Pending 
-* Check all links in this file and add all links
-### STEP 13 : Named Parameter JDBC Template **Refer : JdbcTemplateDaoImpl3.java**
- * https://github.com/pramasamy65/spring/blob/master/spring-data/README1.md
- * https://github.com/pramasamy65/spring/blob/master/spring-data/README2.md
----
+### Topic 1 : hibernate-basic Program using Config Files - Refer Hibernate-Notes2.md
+### Topic 2 : Spring With Hibernate Sample Program - Refer Hibernate-Notes2.md
+

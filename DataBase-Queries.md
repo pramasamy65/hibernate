@@ -1,4 +1,4 @@
-## DateBase Queries
+## DateBase Common Queries
 
 ### Initial Database setup Queries
  * create db : CREATE DATABASE hibernate
