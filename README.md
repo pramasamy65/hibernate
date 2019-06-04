@@ -16,14 +16,17 @@
  * https://github.com/pramasamy65/hibernate/blob/master/DataBase-Queries.md
  
 ### JDBC and Spring JDBC Concepts
+ * Java Brains - Spring Data Support : https://www.youtube.com/playlist?list=PL1A506B159E5BD13E
  * Refer https://github.com/pramasamy65/spring/blob/master/spring-data/README1.md
  * Refer Steps 1 to 14 which contains JDBC and Spring JDBC Tempalte
  
 ### Hibernate Basics Concepts
  * https://github.com/pramasamy65/hibernate/blob/master/Hibernate-Notes1.md
  
-## Hibernate Topics Covered : https://github.com/pramasamy65/hibernate/blob/master/Hibernate-Notes2.md
+## Hibernate Topics Covered
 
-### Topic 1 : hibernate-basic Program using Config Files - Refer Hibernate-Notes2.md
-### Topic 2 : Spring With Hibernate Sample Program - Refer Hibernate-Notes2.md
+### Topic 1 : hibernate-basic Program by loading Config Files
+ *  https://github.com/pramasamy65/hibernate/blob/master/Hibernate-Notes2.md
+### Topic 2 : Spring With Hibernate Sample Program
+ *  https://github.com/pramasamy65/hibernate/blob/master/Hibernate-Notes2.md
 

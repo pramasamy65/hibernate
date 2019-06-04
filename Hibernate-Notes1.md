@@ -20,7 +20,7 @@
 ### @Entity
  * A class which should be persisted in a database it must be annotated with javax.persistence.Entity & Such a class is called Entity
  * An entity represents a table in a relational database
- * @Entity(name = "Test")
+ * @Entity(name = "Test") and name is the only property
  * public class Address {
 	* If there is no name given for Entity then class name is treated as table name
 	* If entity name is provided then hibernate create the table name as "Test"

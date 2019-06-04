@@ -1,7 +1,7 @@
 ## Hibernate-Notes2
 
 
-### Topic 1 : hibernate-basic Program using Config Files
+### Topic 1 : hibernate-basic Program by loading Config Files
  
  * Project : https://github.com/pramasamy65/hibernate/tree/master/hibernate-basics
  
