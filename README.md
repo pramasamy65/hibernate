@@ -14,14 +14,20 @@
 ---
 ### Sample DataBase Queries and script
  * https://github.com/pramasamy65/hibernate/blob/master/DataBase-Queries.md
-
-### JDBC and Spring JDBC Concepts
- * https://github.com/pramasamy65/spring/blob/master/spring-data/README1.md
+ 
+## JDBC and Spring JDBC Concepts
+ * Refer https://github.com/pramasamy65/spring/blob/master/spring-data/README1.md
+ * Refer Steps 1 to 14 which contains JDBC and Spring JDBC Tempalte
+ 
+## Spring With Hibernate Sample Program
+ * https://github.com/pramasamy65/spring/blob/master/spring-data/README2.md
+ 	* Create DataSource
+ 	* Create SessionFactory
+ 	* AutoWire SessionFactory and create session, transaction and make data base call
 
 ### Hibernate Basics
  * https://github.com/pramasamy65/hibernate/blob/master/Hibernate-Notes1.md
  
-
 
 ---
 ## Pending 

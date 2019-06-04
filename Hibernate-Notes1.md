@@ -1,8 +1,14 @@
 ## Hibernate-Notes1
 
-## World before JPA
+## JDBC and Spring JDBC Concepts
  * Refer https://github.com/pramasamy65/spring/blob/master/spring-data/README1.md
- * Refer Steps 1 to 14 which contains JDBC to JDBC Tempalte
+ * Refer Steps 1 to 14 which contains JDBC and Spring JDBC Tempalte
+ 
+## Spring With Hibernate
+ * https://github.com/pramasamy65/spring/blob/master/spring-data/README2.md
+ 	* Create DataSource
+ 	* Create SessionFactory
+ 	* AutoWire SessionFactory and create session, transaction and make data base call
 
 ### Project - hibernate-basics
  * https://github.com/pramasamy65/hibernate/tree/master/hibernate-basics
