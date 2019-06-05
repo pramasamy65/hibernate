@@ -27,6 +27,20 @@
 
 ### Topic 1 : hibernate-basic Program by loading Config Files
  *  https://github.com/pramasamy65/hibernate/blob/master/Hibernate-Notes2.md
+
 ### Topic 2 : Spring With Hibernate Sample Program
  *  https://github.com/pramasamy65/hibernate/blob/master/Hibernate-Notes2.md
 
+---
+### Junk
+* https://premaseem.wordpress.com/category/computers/framework/hibernate/
+
+### Topics To be covered
+* Hibernate and JPA methods
+---
+## Pending 
+* Check all links in this file and add all links
+### STEP 13 : Named Parameter JDBC Template **Refer : JdbcTemplateDaoImpl3.java**
+ * https://github.com/pramasamy65/spring/blob/master/spring-data/README1.md
+ * https://github.com/pramasamy65/spring/blob/master/spring-data/README2.md
+---

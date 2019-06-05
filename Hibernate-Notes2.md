@@ -1,6 +1,5 @@
 ## Hibernate-Notes2
 
-
 ### Topic 1 : hibernate-basic Program by loading Config Files
  
  * Project : https://github.com/pramasamy65/hibernate/tree/master/hibernate-basics
@@ -22,25 +21,10 @@
 	* validate - Hibernate only validates the table structure- whether the table and columns have existed or not. If the table doesn’t exist then hibernate throws an exception
    
  ### Topic 2 : Spring With Hibernate Sample Program
+ 
  * https://github.com/pramasamy65/spring/blob/master/spring-data/README2.md
  	* Configure DataSource in XML
  	* Configure SessionFactory in XML
  	* Use context:component-scan in XML
  	* Register HibernateDaoImpl as @Repository
  	* AutoWire SessionFactory and create session, transaction and make data base call
-
-
-
----
-### Junk
-* https://premaseem.wordpress.com/category/computers/framework/hibernate/
-
-### Topics To be covered
-* Hibernate and JPA methods
----
-## Pending 
-* Check all links in this file and add all links
-### STEP 13 : Named Parameter JDBC Template **Refer : JdbcTemplateDaoImpl3.java**
- * https://github.com/pramasamy65/spring/blob/master/spring-data/README1.md
- * https://github.com/pramasamy65/spring/blob/master/spring-data/README2.md
----
